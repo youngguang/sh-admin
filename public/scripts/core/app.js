@@ -964,7 +964,7 @@ var App = function () {
         // handle theme colors
         var setColor = function (color) {
             var color_ = (App.isRTL() ? color + '-rtl' : color);
-            $('#style_color').attr("href", "assets/css/themes/" + color_ + ".css");
+            $('#style_color').attr("href", "css/themes/" + color_ + ".css");
             if ($.cookie) {                
                 $.cookie('style_color', color);
             }

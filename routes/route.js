@@ -1,15 +1,19 @@
 var index = require('./index');
 
-var user = require('./user/users')
+/*var user = require('./user/users')
 var login = require('./login/login')
 var reg = require('./login/reg')
 var config = require('../config')
 
-var User = require('../table/user');
+var User = require('../table/user');*/
 
 
 var routes = module.exports = function(app) {
-  app.use(function(req, res, next) {
+
+  app.use('/', index);
+
+
+ /* app.use(function(req, res, next) {
     if (req.session.userId) {
       var userId = req.session.userId;
       User
@@ -47,5 +51,5 @@ var routes = module.exports = function(app) {
 
   // 登录后方可请求
   var afterLoginRequests = [login, user]
-  app.use("/", afterLoginRequests);
+  app.use("/", afterLoginRequests);*/
 }

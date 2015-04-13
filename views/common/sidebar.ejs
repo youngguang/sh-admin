@@ -1,16 +1,15 @@
 <div class="page-sidebar-wrapper">
-  <div class="page-sidebar navbar-collapse collapse">
-<!-- add "navbar-no-scroll" class to disable the scrolling of the sidebar menu -->
+<div class="page-sidebar navbar-collapse collapse">
 <!-- BEGIN SIDEBAR MENU -->
 <ul class="page-sidebar-menu" data-auto-scroll="true" data-slide-speed="200">
-<!--<li class="sidebar-toggler-wrapper">
-  &lt;!&ndash; BEGIN SIDEBAR TOGGLER BUTTON &ndash;&gt;
+<li class="sidebar-toggler-wrapper">
+  <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
   <div class="sidebar-toggler hidden-phone">
   </div>
-  &lt;!&ndash; BEGIN SIDEBAR TOGGLER BUTTON &ndash;&gt;
+  <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
 </li>
 <li class="sidebar-search-wrapper">
-  &lt;!&ndash; BEGIN RESPONSIVE QUICK SEARCH FORM &ndash;&gt;
+  <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
   <form class="sidebar-search" action="extra_search.html" method="POST">
     <div class="form-container">
       <div class="input-box">
@@ -21,80 +20,89 @@
       </div>
     </div>
   </form>
-  &lt;!&ndash; END RESPONSIVE QUICK SEARCH FORM &ndash;&gt;
-</li>-->
-<li class="start">
-  <a href="/">
+  <!-- END RESPONSIVE QUICK SEARCH FORM -->
+</li>
+<li class="start ">
+  <a href="index.html">
     <i class="fa fa-home"></i>
     <span class="title">首页</span>
-    <span class="selected"></span>
   </a>
 </li>
-<li class="active">
+<li>
   <a href="javascript:;">
-    <i class="fa fa-users"></i>
-    <span class="title">
-      会员信息
-    </span>
+    <i class="fa fa-shopping-cart"></i>
+        <span class="title">商品中心</span>
+        <span class="arrow "></span>
   </a>
   <ul class="sub-menu">
     <li>
-      <a href="/user">
-        <i class="fa fa-user"></i>
-        个人信息
+      <a href="ecommerce_index.html">
+        <i class="fa fa-bullhorn"></i> 我的商品
       </a>
     </li>
     <li>
-      <a href="/user">
-        <i class="fa fa-shopping-cart"></i>
-        收货地址
+      <a href="ecommerce_orders.html">
+        <i class="fa fa-shopping-cart"></i> 商品审核
+      </a>
+    </li>
+    <li>
+      <a href="ecommerce_orders_view.html">
+        <i class="fa fa-tags"></i> 商品分类
+      </a>
+    </li>
+    <li>
+      <a href="ecommerce_products.html">
+        <i class="fa fa-sitemap"></i> 商品品牌
       </a>
     </li>
   </ul>
 </li>
-<li class="active">
-  <a href="/user">
+<li>
+  <a href="javascript:;">
     <i class="fa fa-gift"></i>
-    <span class="title">闲货信息</span>
+						<span class="title">
+							订单中心
+						</span>
+						<span class="arrow">
+						</span>
   </a>
   <ul class="sub-menu">
-    <li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="">
-      <a href="/user">
-          <span class="title">我有闲货</span>
+    <li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="我自己商品的订单">
+      <a href="http://keenthemes.com/preview/index.php?theme=metronic_ecommerce" target="_blank">
+								<span class="title">
+									我的订单
+								</span>
+      </a>
+    </li>
+    <li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="查看用户之间生成的订单">
+      <a href="http://keenthemes.com/preview/index.php?theme=metronic_frontend" target="_blank">
+          <span class="title">
+            用户订单
+          </span>
+      </a>
+    </li>
+    <li>
+      <a href="index_horizontal_menu.html">
+        退货单
       </a>
     </li>
   </ul>
 </li>
-<li class="active">
-  <a href="/user">
-    <i class="fa fa-gift"></i>
-    <span class="title">订单信息</span>
+<li  class="last">
+  <a href="javascript:;">
+    <i class="fa fa-cogs"></i>
+    <span class="title">账务中心</span>
+    <span class="arrow "></span>
   </a>
   <ul class="sub-menu">
-    <li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="">
-      <a href="/user">
-        <span class="title">闲货订单</span>
-      </a>
-      <a href="/user">
-        <span class="title">我的订单</span>
-      </a>
-    </li>
-  </ul>
-</li>
-<li class="last active">
-  <a href="/user">
-    <i class="fa fa-bar-chart-o"></i>
-    <span class="title">账务信息</span>
-  </a>
-  <ul class="sub-menu">
-    <li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="">
-      <a href="/user">
-        <i class="fa fa-envelope"></i>
-        <span class="title">我的钱包</span>
+    <li>
+      <a href="index_horizontal_menu.html">
+        账务流水
       </a>
     </li>
   </ul>
 </li>
 </ul>
+<!-- END SIDEBAR MENU -->
 </div>
 </div>
