@@ -3,5 +3,5 @@ module.exports =  {
       out_ip: "127.0.0.1",
     out_port: "3000",
 
-    site_name: "二手哥"
+    site_name: "二手哥后台支撑"
 }
