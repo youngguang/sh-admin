@@ -1,0 +1,55 @@
+body {
+   font-family:  Microsoft YaHei, Sinsum, Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+.header {
+    background-color: #047AD8 !important;
+}
+
+.header.navbar {
+    height:55px !important;
+}
+
+.page-container {
+    margin-top: 56px !important;
+}
+
+.register-form {
+    display: block !important;
+}
+
+.form-actions {
+    margin-top: -10px;
+}
+
+.nav-login-bar {
+    position:absolute;
+    right: 20em;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.main-nav-bar {
+    position:absolute;
+    left: 20em;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.nav-login-bar i, .nav-login-bar a, .main-nav-bar a {
+    color: white;
+}
+
+.nav-login-bar .pushL15 {
+    margin-left: 15px;
+}
+
+.nav-login-bar .pushL30 {
+    margin-left: 30px;
+}
+
+.dropdown-menu li > a, .details h1{
+    font-family:  Microsoft YaHei, Sinsum, Verdana, Arial, Helvetica, sans-serif;
+}
+
+
